@@ -1,0 +1,163 @@
+.but{
+border: none;
+font-family: 'Lato';
+color: inherit;
+background: none;
+cursor: pointer;
+padding: 25px 30px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none; 
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+.but:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;  
+}
+
+.but:before{
+    font-family: 'FontAwesome';
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+.but-sep {
+    padding: 25px 60px 25px 120px;
+  }
+  
+  .but-sep:before {
+    background: rgba(0,0,0,0.15);
+  }
+
+
+/* butão um */
+.but1{
+    background: #3498db;
+    color: #fff;
+}
+.but1:hover{
+    background: #2980b9;
+}
+
+.but1:active{
+    background: #2980b9;
+    top: 2px;
+}
+.but1::before{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* botão dois */
+.but2{
+    background: #059100;
+    color: #fff;
+}
+.but2:hover{
+    background: #057901;
+}
+
+.but2:active{
+    background: #057901;
+    top: 2px;
+}
+.but2::before{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* botão 3 */
+.but3{
+    background: #e74c3c;
+    color: #fff;
+}
+
+.but3:hover {
+    background: #c0392b;
+}
+
+.but3:active {
+    background: #c0392b;
+    top: 2px;
+}
+
+.but3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+
+/* Botão 4 */
+.but4 {
+    background: #34495e;
+    color: #fff;
+}
+
+.but4:hover {
+    background: #2c3e50;
+}
+
+.but4:active {
+    background: #2c3e50;
+    top: 2px;
+}
+
+.but4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Icons */
+
+.icon-1:before {
+  content: "I";
+}
+
+.icon-2:before {
+  content: "I";
+}
+
+.icon-3:before {
+  content: "I";
+}
+
+.icon-4:before {
+  content: "I";
+}
+
