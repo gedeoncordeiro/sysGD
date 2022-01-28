@@ -22,16 +22,18 @@ b{
 header h3{
     margin: 0px;
 }
-header span{
+header a{
     background-color: red;
     height: 30px;
     width: 80px;
     border-radius: 4px;
     text-align: center;
     margin-right: 20px;
+    text-decoration: unset;
+    color: white;
 }
-header span:hover{
-    background-color: white;
+header a:hover{
+    background-color: rgb(173, 0, 0);
 }
 section{
     display: flex;
